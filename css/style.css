@@ -18,15 +18,15 @@ img {
     border-radius: 100px 100px 100px 100px;
     margin-top: 10px;
 }
-.btn {
+.btn-s {
     border-radius: 100px 100px 100px 100px;
     background-color: blueviolet;
     border-color: black;
 }
-.btn:hover {
+.btn-s:hover {
     background-color: blueviolet;
 }
-li * {
+li,.thing {
     margin-right: 20px;
     margin-left: 20px;
     color: rgb(255, 255, 255);
@@ -37,10 +37,39 @@ p {
 }
 .dropdown-menu {
     background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(78,5,80,1) 0%);    
-
+    background: rgb(77, 0, 77);
+    width: 500px;
 }
-.dropdown-menu > li > a:hover {
-    background-image: none;
-    background-color: none !important;
+.dropdown-divider {
+    border-color: purple;
+}
+.margin-b-gone {
+    margin:  0px;
+}
+.dropdown-item {
+    color: white;
+    display: flex;
+    white-space: wrap;
+    width: auto;
+}
+p {
+    font-size: 15px;
+    opacity: 75%;
+}
+img {
+    margin-right: 10px;
+}
+.col-6, h6 {
+    margin-top: 15px;
+}
+.purp {
+    background-color: purple;
+}
+.col-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.width-no {
+    width: auto;
 }
